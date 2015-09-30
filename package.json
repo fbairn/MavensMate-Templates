@@ -14,6 +14,32 @@
             ]
         },
         {  
+            "name":"APEX REST CLASS",
+            "file_name":"RESTClass.cls",
+            "description":"An Apex Class for REST calls",
+            "author":"Fredrick Bairn",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+        {  
+            "name":"APEX Handler Class",
+            "file_name":"ApexHandler.cls",
+            "description":"An Apex Class for implementing Trigger Handle",
+            "author":"Fredrick Bairn",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexHandle"
+                }
+            ]
+        },
+        {  
             "name":"ApexInterface",
             "file_name":"ApexInterface.cls",
             "description":"The default template for an Apex Interface",
@@ -66,10 +92,41 @@
             ]
         },
         {  
+            "name":"Controller Unit Test",
+            "file_name":"ControllerTestApexClass.cls",
+            "description":"Controller and Extension Test Class",
+            "author":"Fred Bairn",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyExtensionClassTest"
+                },
+                {  
+                    "name":"controller_name",
+                    "description":"Apex Controller Class Name",
+                    "default":"PageExt"
+                }
+            ]
+        },
+        {  
             "name":"Controller Extension",
             "file_name":"ControllerExtension.cls",
             "description":"Controller extension Apex Class",
             "author":"David Schach @dschach",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+        {  
+            "name":"Flow Plugin",
+            "file_name":"FlowPlugin.cls",
+            "description":"Plugin for a Visual Flow",
+            "author":"Fredrick Bairn",
             "params":[  
                 {  
                     "name":"api_name",
@@ -320,6 +377,24 @@
             "file_name":"ApexTrigger.trigger",
             "description":"Basic Apex Trigger template",
             "author":"MavensMate",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Trigger API Name",
+                    "default":"MyCoolTrigger"
+                },
+                {  
+                    "name":"object_name",
+                    "description":"Object API Name",
+                    "default":"Account"
+                }
+            ]
+        },
+        {  
+            "name":"Apex Trigger - Handler",
+            "file_name":"ApexTriggerHandler.trigger",
+            "description":"Apex Trigger with Trigger handler",
+            "author":"@Fredrick Bairn",
             "params":[  
                 {  
                     "name":"api_name",
