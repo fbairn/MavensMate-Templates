@@ -27,6 +27,19 @@
             ]
         },
         {  
+            "name":"QUEABLE CLASS",
+            "file_name":"QueableClass.cls",
+            "description":"An Apex Class for queauble",
+            "author":"Fredrick Bairn",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"EB_ClassNameQue"
+                }
+            ]
+        },
+        {  
             "name":"APEX Handler Class",
             "file_name":"ApexHandler.cls",
             "description":"An Apex Class for implementing Trigger Handle",
