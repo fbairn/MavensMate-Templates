@@ -297,7 +297,7 @@
                 {  
                     "name":"api_name",
                     "description":"Apex Class API Name",
-                    "default":"MyApexClass"
+                    "default":"EB_MyApexClassTest"
                 }
             ]
         },

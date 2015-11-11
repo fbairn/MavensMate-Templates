@@ -6,13 +6,15 @@ private class {{ api_name }} {
 
     }
 
-	@isTest static void test_method_one() {
-		// Implement test code
-        System.assertEquals(true,false);
-	}
-	
-	@isTest static void test_method_two() {
-		// Implement test code
+	@isTest static void test_method() {
+		//Setup Test Data
+		
+		//Preform Test
+		Test.StartTest();
+		
+		Test.StopTest();
+
+		//Assert test results
         System.assertEquals(true,false);
 	}
 	
