@@ -7,7 +7,7 @@ global class {{ api_name }} implements Process.Plugin {
         // the flow.
         String stringParam = (String) request.inputParameters.get('stringParam');
         Integer integerParam = (Integer) request.inputParameters.get('integerParam');
-        Boolean boolParam, = (Boolean) request.inputParameters.get('boolParam');
+        Boolean boolParam = (Boolean) request.inputParameters.get('boolParam');
         
         // Set the default handling for booleans. 
         if (boolParam == null) 
